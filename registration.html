@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Event Registration</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="registration.html">Registration</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="form-container">
+
+    <h2>Register for an Event</h2>
+
+    <form id="registrationForm">
+
+        <label>Student Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label>Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label>Mobile Number</label>
+        <input type="tel" id="mobile" placeholder="Enter mobile number">
+
+        <label>Department</label>
+        <input type="text" id="department" placeholder="Enter department">
+
+        <label>Year</label>
+        <select id="year">
+            <option value="">Select Year</option>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+            <option>4th Year</option>
+        </select>
+
+        <label>Select Event</label>
+        <select id="event">
+            <option value="">Select Event</option>
+            <option>Coding Contest</option>
+            <option>Hackathon</option>
+            <option>Cultural Fest</option>
+        </select>
+
+        <button type="submit">Submit Registration</button>
+
+    </form>
+
+    <p id="message"></p>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
